@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_467f11e3b3c34252ae2de684159b8f3a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_467f11e3b3c34252ae2de684159b8f3a" ></div>
+        
+</body>
+<script>    
+    
+            var map_467f11e3b3c34252ae2de684159b8f3a = L.map(
+                "map_467f11e3b3c34252ae2de684159b8f3a",
+                {
+                    center: [26.4609135, 80.3217588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5a582c953e0b49e1ba27b6d89c57df60 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+            var circle_marker_78bb722d2a4744099c979290f556d9f7 = L.circleMarker(
+                [26.43651158185418, 80.28410974063011],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_84a876deed4c43c994ca4f71d93f6809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd2de27f3a234eaa81dc7099177e03a7 = $(`<div id="html_cd2de27f3a234eaa81dc7099177e03a7" style="width: 100.0%; height: 100.0%;">Barra, Kanpur - Cluster 0</div>`)[0];
+            popup_84a876deed4c43c994ca4f71d93f6809.setContent(html_cd2de27f3a234eaa81dc7099177e03a7);
+        
+
+        circle_marker_78bb722d2a4744099c979290f556d9f7.bindPopup(popup_84a876deed4c43c994ca4f71d93f6809)
+        ;
+
+        
+    
+    
+            var circle_marker_c8631bd9e33d45eaa51c6f95dc57e0a1 = L.circleMarker(
+                [26.477770000000078, 80.27634000000006],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_7f3c3ff6433a489bbb4feaf384aaf535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f77a1e5702144159f0eb95bb3bd1529 = $(`<div id="html_2f77a1e5702144159f0eb95bb3bd1529" style="width: 100.0%; height: 100.0%;">Rawatpur - Cluster 0</div>`)[0];
+            popup_7f3c3ff6433a489bbb4feaf384aaf535.setContent(html_2f77a1e5702144159f0eb95bb3bd1529);
+        
+
+        circle_marker_c8631bd9e33d45eaa51c6f95dc57e0a1.bindPopup(popup_7f3c3ff6433a489bbb4feaf384aaf535)
+        ;
+
+        
+    
+    
+            var circle_marker_09b76a87cc60400986614fc1d7bba843 = L.circleMarker(
+                [26.447290000000066, 80.28482000000008],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_e9db251ba9c7490d97be27566fbd2a09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a489ab3c0d9f4f769c0002834b86ce16 = $(`<div id="html_a489ab3c0d9f4f769c0002834b86ce16" style="width: 100.0%; height: 100.0%;">Ratan Lal Nagar - Cluster 0</div>`)[0];
+            popup_e9db251ba9c7490d97be27566fbd2a09.setContent(html_a489ab3c0d9f4f769c0002834b86ce16);
+        
+
+        circle_marker_09b76a87cc60400986614fc1d7bba843.bindPopup(popup_e9db251ba9c7490d97be27566fbd2a09)
+        ;
+
+        
+    
+    
+            var circle_marker_f5527e497b9d4ca888b9d4dcfec0eb69 = L.circleMarker(
+                [26.38838000000004, 80.32378000000006],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_4eaa77e66192477bb7ad5ab13a123727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64950080d5b646f79d1aaf37140de158 = $(`<div id="html_64950080d5b646f79d1aaf37140de158" style="width: 100.0%; height: 100.0%;">Padri Lalpur - Cluster 0</div>`)[0];
+            popup_4eaa77e66192477bb7ad5ab13a123727.setContent(html_64950080d5b646f79d1aaf37140de158);
+        
+
+        circle_marker_f5527e497b9d4ca888b9d4dcfec0eb69.bindPopup(popup_4eaa77e66192477bb7ad5ab13a123727)
+        ;
+
+        
+    
+    
+            var circle_marker_95f017ff4f3d46509ca588fc2d4705ee = L.circleMarker(
+                [26.490680000000054, 80.25215000000009],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_d417f82927e34846ab158d946c24e4d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e5b05a41f85406eb96e33b434f4a03e = $(`<div id="html_8e5b05a41f85406eb96e33b434f4a03e" style="width: 100.0%; height: 100.0%;">Kalyanpur, Uttar Pradesh - Cluster 0</div>`)[0];
+            popup_d417f82927e34846ab158d946c24e4d3.setContent(html_8e5b05a41f85406eb96e33b434f4a03e);
+        
+
+        circle_marker_95f017ff4f3d46509ca588fc2d4705ee.bindPopup(popup_d417f82927e34846ab158d946c24e4d3)
+        ;
+
+        
+    
+    
+            var circle_marker_dc66f537b9f4442aa83e85f47fdd98fe = L.circleMarker(
+                [26.453790000000026, 80.36283000000003],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_7a5f05341c12475ab925c2f591eb9bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3694febe6cd4dcabfc0e430cfe4397f = $(`<div id="html_e3694febe6cd4dcabfc0e430cfe4397f" style="width: 100.0%; height: 100.0%;">Kanpur Cantonment - Cluster 0</div>`)[0];
+            popup_7a5f05341c12475ab925c2f591eb9bc3.setContent(html_e3694febe6cd4dcabfc0e430cfe4397f);
+        
+
+        circle_marker_dc66f537b9f4442aa83e85f47fdd98fe.bindPopup(popup_7a5f05341c12475ab925c2f591eb9bc3)
+        ;
+
+        
+    
+    
+            var circle_marker_e87c4cea0c074b88a81f73bd9b816521 = L.circleMarker(
+                [26.449520000000064, 80.30274000000009],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_6c0b1308bde04b33884b1f0f3b83c754 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389da0596ea54ddc837b0d914fd0e126 = $(`<div id="html_389da0596ea54ddc837b0d914fd0e126" style="width: 100.0%; height: 100.0%;">Govind Nagar - Cluster 0</div>`)[0];
+            popup_6c0b1308bde04b33884b1f0f3b83c754.setContent(html_389da0596ea54ddc837b0d914fd0e126);
+        
+
+        circle_marker_e87c4cea0c074b88a81f73bd9b816521.bindPopup(popup_6c0b1308bde04b33884b1f0f3b83c754)
+        ;
+
+        
+    
+    
+            var circle_marker_645ac35d4cd84bf993357bf0a85fc777 = L.circleMarker(
+                [26.51967146434187, 80.25879411608547],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_f29ae1e5dc8445748eb03d34648df208 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e5bc966885c44719c0b095158320224 = $(`<div id="html_0e5bc966885c44719c0b095158320224" style="width: 100.0%; height: 100.0%;">Bithoor - Cluster 0</div>`)[0];
+            popup_f29ae1e5dc8445748eb03d34648df208.setContent(html_0e5bc966885c44719c0b095158320224);
+        
+
+        circle_marker_645ac35d4cd84bf993357bf0a85fc777.bindPopup(popup_f29ae1e5dc8445748eb03d34648df208)
+        ;
+
+        
+    
+    
+            var circle_marker_b4f67029256a4442879cf3e41c3597a9 = L.circleMarker(
+                [26.475430000000074, 80.28700000000003],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_44dbc3dac0a4471db819fad79029c0ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4e3a8a60bb049a5a8088fe9a2c13bbc = $(`<div id="html_a4e3a8a60bb049a5a8088fe9a2c13bbc" style="width: 100.0%; height: 100.0%;">Kakadeo - Cluster 1</div>`)[0];
+            popup_44dbc3dac0a4471db819fad79029c0ba.setContent(html_a4e3a8a60bb049a5a8088fe9a2c13bbc);
+        
+
+        circle_marker_b4f67029256a4442879cf3e41c3597a9.bindPopup(popup_44dbc3dac0a4471db819fad79029c0ba)
+        ;
+
+        
+    
+    
+            var circle_marker_f70ccc1044894cfd8bc8f5de2808b15a = L.circleMarker(
+                [26.418900000000065, 80.40744000000007],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_668a4b9d52e243b68682fec253d2112f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1b668a60245445b905ff71a1ac3d5a7 = $(`<div id="html_b1b668a60245445b905ff71a1ac3d5a7" style="width: 100.0%; height: 100.0%;">Jajmau - Cluster 1</div>`)[0];
+            popup_668a4b9d52e243b68682fec253d2112f.setContent(html_b1b668a60245445b905ff71a1ac3d5a7);
+        
+
+        circle_marker_f70ccc1044894cfd8bc8f5de2808b15a.bindPopup(popup_668a4b9d52e243b68682fec253d2112f)
+        ;
+
+        
+    
+    
+            var circle_marker_c900a5e7cb3645b0bda54d97ec775941 = L.circleMarker(
+                [26.46893170923684, 80.35977566020455],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_a00d3ee1fbe94f3193dbe5e100ddc81b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03a699bb46b745218a311e1cf797a5e3 = $(`<div id="html_03a699bb46b745218a311e1cf797a5e3" style="width: 100.0%; height: 100.0%;">The Mall, Kanpur - Cluster 2</div>`)[0];
+            popup_a00d3ee1fbe94f3193dbe5e100ddc81b.setContent(html_03a699bb46b745218a311e1cf797a5e3);
+        
+
+        circle_marker_c900a5e7cb3645b0bda54d97ec775941.bindPopup(popup_a00d3ee1fbe94f3193dbe5e100ddc81b)
+        ;
+
+        
+    
+    
+            var circle_marker_1ec6de596b3c4402b20d0c3128197214 = L.circleMarker(
+                [26.466097488777894, 80.34706107715456],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_6ed01a8006a34818be6c3055a0c38ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e5c37b7ba514053ba431b0242957eb3 = $(`<div id="html_4e5c37b7ba514053ba431b0242957eb3" style="width: 100.0%; height: 100.0%;">Latouche Road, Kanpur - Cluster 2</div>`)[0];
+            popup_6ed01a8006a34818be6c3055a0c38ca6.setContent(html_4e5c37b7ba514053ba431b0242957eb3);
+        
+
+        circle_marker_1ec6de596b3c4402b20d0c3128197214.bindPopup(popup_6ed01a8006a34818be6c3055a0c38ca6)
+        ;
+
+        
+    
+    
+            var circle_marker_e626eebbc58f4f6191a9a2c91b634742 = L.circleMarker(
+                [26.48290000000003, 80.32901000000004],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_3d173c9c680e49128705d7406daeee2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_772c569ed91348b4a9655453ac4691f2 = $(`<div id="html_772c569ed91348b4a9655453ac4691f2" style="width: 100.0%; height: 100.0%;">McRobertganj - Cluster 2</div>`)[0];
+            popup_3d173c9c680e49128705d7406daeee2d.setContent(html_772c569ed91348b4a9655453ac4691f2);
+        
+
+        circle_marker_e626eebbc58f4f6191a9a2c91b634742.bindPopup(popup_3d173c9c680e49128705d7406daeee2d)
+        ;
+
+        
+    
+    
+            var circle_marker_e6283181226347308cacd0576db05a58 = L.circleMarker(
+                [26.468860884053807, 80.34833044202689],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_375f12b9dda8486e819b1ed1ed2e157d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d0ed829897746c88ad1bdff88dc16fa = $(`<div id="html_9d0ed829897746c88ad1bdff88dc16fa" style="width: 100.0%; height: 100.0%;">Meston Road, Kanpur - Cluster 2</div>`)[0];
+            popup_375f12b9dda8486e819b1ed1ed2e157d.setContent(html_9d0ed829897746c88ad1bdff88dc16fa);
+        
+
+        circle_marker_e6283181226347308cacd0576db05a58.bindPopup(popup_375f12b9dda8486e819b1ed1ed2e157d)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef58295d0af4af6bd2948f8ff135a03 = L.circleMarker(
+                [26.467178655325988, 80.33499630794532],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_96d3ab02572646f0bee168c4b315a083 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19b3b9336ba44542a6b86a5cfd7956a6 = $(`<div id="html_19b3b9336ba44542a6b86a5cfd7956a6" style="width: 100.0%; height: 100.0%;">Chaman Ganj, Kanpur - Cluster 2</div>`)[0];
+            popup_96d3ab02572646f0bee168c4b315a083.setContent(html_19b3b9336ba44542a6b86a5cfd7956a6);
+        
+
+        circle_marker_9ef58295d0af4af6bd2948f8ff135a03.bindPopup(popup_96d3ab02572646f0bee168c4b315a083)
+        ;
+
+        
+    
+    
+            var circle_marker_9930d7d112c14b4ca8b06a2bff7781c2 = L.circleMarker(
+                [26.42865834210118, 80.38628290132293],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_31e0abb52c89444bb49e87e14494c05f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_760c332523bf40a4bd9173207d4dabba = $(`<div id="html_760c332523bf40a4bd9173207d4dabba" style="width: 100.0%; height: 100.0%;">Birhana Road, Kanpur - Cluster 2</div>`)[0];
+            popup_31e0abb52c89444bb49e87e14494c05f.setContent(html_760c332523bf40a4bd9173207d4dabba);
+        
+
+        circle_marker_9930d7d112c14b4ca8b06a2bff7781c2.bindPopup(popup_31e0abb52c89444bb49e87e14494c05f)
+        ;
+
+        
+    
+    
+            var circle_marker_e89653a9ad0d401bb2355e443539a97a = L.circleMarker(
+                [26.485630078030223, 80.32398814090162],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_467f11e3b3c34252ae2de684159b8f3a);
+        
+    
+        var popup_e97040bfb03b4e1592dbd9b733df138d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71e9642eb1924818ac4598cbf03e1765 = $(`<div id="html_71e9642eb1924818ac4598cbf03e1765" style="width: 100.0%; height: 100.0%;">VIP Road, Kanpur - Cluster 2</div>`)[0];
+            popup_e97040bfb03b4e1592dbd9b733df138d.setContent(html_71e9642eb1924818ac4598cbf03e1765);
+        
+
+        circle_marker_e89653a9ad0d401bb2355e443539a97a.bindPopup(popup_e97040bfb03b4e1592dbd9b733df138d)
+        ;
+
+        
+    
+</script>

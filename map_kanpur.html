@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6857f26ca2c4ad39f3d3fea30dcb35e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c6857f26ca2c4ad39f3d3fea30dcb35e" ></div>
+        
+</body>
+<script>    
+    
+            var map_c6857f26ca2c4ad39f3d3fea30dcb35e = L.map(
+                "map_c6857f26ca2c4ad39f3d3fea30dcb35e",
+                {
+                    center: [26.4609135, 80.3217588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_695c13fff5384830be23bd2906497a07 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+            var circle_marker_7ed1b699263b429ba1a22832139fae6b = L.circleMarker(
+                [26.43651158185418, 80.28410974063011],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_90398e5c6afc4048bee70f872f606152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6900eb931ff4248a313e0b81a44412b = $(`<div id="html_a6900eb931ff4248a313e0b81a44412b" style="width: 100.0%; height: 100.0%;">Barra, Kanpur</div>`)[0];
+            popup_90398e5c6afc4048bee70f872f606152.setContent(html_a6900eb931ff4248a313e0b81a44412b);
+        
+
+        circle_marker_7ed1b699263b429ba1a22832139fae6b.bindPopup(popup_90398e5c6afc4048bee70f872f606152)
+        ;
+
+        
+    
+    
+            var circle_marker_553e31d40c4740e19b983609548cfed3 = L.circleMarker(
+                [26.21157000000005, 80.27301000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_64d4000e62e14294a113e8df51a67abc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd5f15bdc12344dc83a570ef6c1c841f = $(`<div id="html_dd5f15bdc12344dc83a570ef6c1c841f" style="width: 100.0%; height: 100.0%;">Bhitargaon</div>`)[0];
+            popup_64d4000e62e14294a113e8df51a67abc.setContent(html_dd5f15bdc12344dc83a570ef6c1c841f);
+        
+
+        circle_marker_553e31d40c4740e19b983609548cfed3.bindPopup(popup_64d4000e62e14294a113e8df51a67abc)
+        ;
+
+        
+    
+    
+            var circle_marker_826587a6083c433896678eb77a9b62da = L.circleMarker(
+                [26.42865834210118, 80.38628290132293],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_6403b31f05e949abb277cd8c980e7e53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ce6828ccdd54613a2fbc13c877eec7a = $(`<div id="html_7ce6828ccdd54613a2fbc13c877eec7a" style="width: 100.0%; height: 100.0%;">Birhana Road, Kanpur</div>`)[0];
+            popup_6403b31f05e949abb277cd8c980e7e53.setContent(html_7ce6828ccdd54613a2fbc13c877eec7a);
+        
+
+        circle_marker_826587a6083c433896678eb77a9b62da.bindPopup(popup_6403b31f05e949abb277cd8c980e7e53)
+        ;
+
+        
+    
+    
+            var circle_marker_998f24c4dfb3431c981fed6598ed91bb = L.circleMarker(
+                [26.51967146434187, 80.25879411608547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_5370a9ab908744b6ac547dff8631ffb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4544490856543cba718cfe3ae528337 = $(`<div id="html_d4544490856543cba718cfe3ae528337" style="width: 100.0%; height: 100.0%;">Bithoor</div>`)[0];
+            popup_5370a9ab908744b6ac547dff8631ffb4.setContent(html_d4544490856543cba718cfe3ae528337);
+        
+
+        circle_marker_998f24c4dfb3431c981fed6598ed91bb.bindPopup(popup_5370a9ab908744b6ac547dff8631ffb4)
+        ;
+
+        
+    
+    
+            var circle_marker_013c704e86f44206a91284e444fd4f0a = L.circleMarker(
+                [26.467178655325988, 80.33499630794532],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_28668c65a74d4962b85e80bfbbe3d7a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2beb0c2925a42b2993c61b1d31395c7 = $(`<div id="html_a2beb0c2925a42b2993c61b1d31395c7" style="width: 100.0%; height: 100.0%;">Chaman Ganj, Kanpur</div>`)[0];
+            popup_28668c65a74d4962b85e80bfbbe3d7a7.setContent(html_a2beb0c2925a42b2993c61b1d31395c7);
+        
+
+        circle_marker_013c704e86f44206a91284e444fd4f0a.bindPopup(popup_28668c65a74d4962b85e80bfbbe3d7a7)
+        ;
+
+        
+    
+    
+            var circle_marker_d765f85a0af549f8b6c07f63b4bf874d = L.circleMarker(
+                [26.61737000000005, 80.19634000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_76a024fb4d0b404e92e39111721ae637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e78fe05939426ba2812826a20b7d52 = $(`<div id="html_74e78fe05939426ba2812826a20b7d52" style="width: 100.0%; height: 100.0%;">Chobepur</div>`)[0];
+            popup_76a024fb4d0b404e92e39111721ae637.setContent(html_74e78fe05939426ba2812826a20b7d52);
+        
+
+        circle_marker_d765f85a0af549f8b6c07f63b4bf874d.bindPopup(popup_76a024fb4d0b404e92e39111721ae637)
+        ;
+
+        
+    
+    
+            var circle_marker_51cb0ccae5af4700a15f4aaae341d5ac = L.circleMarker(
+                [26.449520000000064, 80.30274000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_819adcb997c14286bd4c22c3638987b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ab5cc9c7c844d759e389ba394d6524f = $(`<div id="html_6ab5cc9c7c844d759e389ba394d6524f" style="width: 100.0%; height: 100.0%;">Govind Nagar</div>`)[0];
+            popup_819adcb997c14286bd4c22c3638987b5.setContent(html_6ab5cc9c7c844d759e389ba394d6524f);
+        
+
+        circle_marker_51cb0ccae5af4700a15f4aaae341d5ac.bindPopup(popup_819adcb997c14286bd4c22c3638987b5)
+        ;
+
+        
+    
+    
+            var circle_marker_2d9c9ed60530430b8936df76f1d8c65a = L.circleMarker(
+                [26.418900000000065, 80.40744000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_84016afe4847482aa40004b62b5f0064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a08e9ec494df416db3e63976e03127d0 = $(`<div id="html_a08e9ec494df416db3e63976e03127d0" style="width: 100.0%; height: 100.0%;">Jajmau</div>`)[0];
+            popup_84016afe4847482aa40004b62b5f0064.setContent(html_a08e9ec494df416db3e63976e03127d0);
+        
+
+        circle_marker_2d9c9ed60530430b8936df76f1d8c65a.bindPopup(popup_84016afe4847482aa40004b62b5f0064)
+        ;
+
+        
+    
+    
+            var circle_marker_2216263cdf11435db0327caa65fe1983 = L.circleMarker(
+                [26.475430000000074, 80.28700000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_f42766e435a94ef8b4042aaaf021b171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_666e652bf8d247298d0b8c5ecec7268a = $(`<div id="html_666e652bf8d247298d0b8c5ecec7268a" style="width: 100.0%; height: 100.0%;">Kakadeo</div>`)[0];
+            popup_f42766e435a94ef8b4042aaaf021b171.setContent(html_666e652bf8d247298d0b8c5ecec7268a);
+        
+
+        circle_marker_2216263cdf11435db0327caa65fe1983.bindPopup(popup_f42766e435a94ef8b4042aaaf021b171)
+        ;
+
+        
+    
+    
+            var circle_marker_ac210ee9bc1c4d23accbf3b515abb8b1 = L.circleMarker(
+                [26.490680000000054, 80.25215000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_2793d02598d24d65bc88712d0bacfdb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a26954fd93784d75915fbda5eb2bf928 = $(`<div id="html_a26954fd93784d75915fbda5eb2bf928" style="width: 100.0%; height: 100.0%;">Kalyanpur, Uttar Pradesh</div>`)[0];
+            popup_2793d02598d24d65bc88712d0bacfdb8.setContent(html_a26954fd93784d75915fbda5eb2bf928);
+        
+
+        circle_marker_ac210ee9bc1c4d23accbf3b515abb8b1.bindPopup(popup_2793d02598d24d65bc88712d0bacfdb8)
+        ;
+
+        
+    
+    
+            var circle_marker_523e803dc6a94714b59d9913fe62023f = L.circleMarker(
+                [26.453790000000026, 80.36283000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_5cf089783a3d47caa3b8ca1a435c352c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdfc4e7d91bd45aea6b0f80a7f929aef = $(`<div id="html_fdfc4e7d91bd45aea6b0f80a7f929aef" style="width: 100.0%; height: 100.0%;">Kanpur Cantonment</div>`)[0];
+            popup_5cf089783a3d47caa3b8ca1a435c352c.setContent(html_fdfc4e7d91bd45aea6b0f80a7f929aef);
+        
+
+        circle_marker_523e803dc6a94714b59d9913fe62023f.bindPopup(popup_5cf089783a3d47caa3b8ca1a435c352c)
+        ;
+
+        
+    
+    
+            var circle_marker_1a8e5914365d4da7a77730a5794dc08d = L.circleMarker(
+                [26.466097488777894, 80.34706107715456],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_bbea8b07e45e4331bc54f3bd5f2ed7bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_807f4f9129c146e08a4de7c207311330 = $(`<div id="html_807f4f9129c146e08a4de7c207311330" style="width: 100.0%; height: 100.0%;">Latouche Road, Kanpur</div>`)[0];
+            popup_bbea8b07e45e4331bc54f3bd5f2ed7bd.setContent(html_807f4f9129c146e08a4de7c207311330);
+        
+
+        circle_marker_1a8e5914365d4da7a77730a5794dc08d.bindPopup(popup_bbea8b07e45e4331bc54f3bd5f2ed7bd)
+        ;
+
+        
+    
+    
+            var circle_marker_db36e68300b04ba8b64a1353b322ab7a = L.circleMarker(
+                [26.46893170923684, 80.35977566020455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_4961ac88abbf4478bfc1f4754d37a64e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2668b94062d4474e9b96a702c53359bf = $(`<div id="html_2668b94062d4474e9b96a702c53359bf" style="width: 100.0%; height: 100.0%;">The Mall, Kanpur</div>`)[0];
+            popup_4961ac88abbf4478bfc1f4754d37a64e.setContent(html_2668b94062d4474e9b96a702c53359bf);
+        
+
+        circle_marker_db36e68300b04ba8b64a1353b322ab7a.bindPopup(popup_4961ac88abbf4478bfc1f4754d37a64e)
+        ;
+
+        
+    
+    
+            var circle_marker_dd8af161e5b3427bb7d51c6de78bd620 = L.circleMarker(
+                [26.48290000000003, 80.32901000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_38345196157b42c2bbd9ff6772215df5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95a3307303cd439a8c7a41197acab8e5 = $(`<div id="html_95a3307303cd439a8c7a41197acab8e5" style="width: 100.0%; height: 100.0%;">McRobertganj</div>`)[0];
+            popup_38345196157b42c2bbd9ff6772215df5.setContent(html_95a3307303cd439a8c7a41197acab8e5);
+        
+
+        circle_marker_dd8af161e5b3427bb7d51c6de78bd620.bindPopup(popup_38345196157b42c2bbd9ff6772215df5)
+        ;
+
+        
+    
+    
+            var circle_marker_a0a09506693b49eb9fb90d02d44a5b1c = L.circleMarker(
+                [26.468860884053807, 80.34833044202689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_bb33f2a4ac584861940f2fa39d28a60d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a707a4198c429db7e4e0aa7f0863eb = $(`<div id="html_e7a707a4198c429db7e4e0aa7f0863eb" style="width: 100.0%; height: 100.0%;">Meston Road, Kanpur</div>`)[0];
+            popup_bb33f2a4ac584861940f2fa39d28a60d.setContent(html_e7a707a4198c429db7e4e0aa7f0863eb);
+        
+
+        circle_marker_a0a09506693b49eb9fb90d02d44a5b1c.bindPopup(popup_bb33f2a4ac584861940f2fa39d28a60d)
+        ;
+
+        
+    
+    
+            var circle_marker_faffa69015f0495fadefd4a8ff282359 = L.circleMarker(
+                [26.530830000000037, 80.23555000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_65df59a6a229425082c27e7ba45bcac9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73b20f1de6ef40d38d1e621feb39920d = $(`<div id="html_73b20f1de6ef40d38d1e621feb39920d" style="width: 100.0%; height: 100.0%;">Naramau</div>`)[0];
+            popup_65df59a6a229425082c27e7ba45bcac9.setContent(html_73b20f1de6ef40d38d1e621feb39920d);
+        
+
+        circle_marker_faffa69015f0495fadefd4a8ff282359.bindPopup(popup_65df59a6a229425082c27e7ba45bcac9)
+        ;
+
+        
+    
+    
+            var circle_marker_fc347dae39c34280978dad3eede2c87b = L.circleMarker(
+                [26.38838000000004, 80.32378000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_d9cc4294d7d848bd9685a3350f8fef5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ed6f9df8e1437fb5a7bff93982b94b = $(`<div id="html_29ed6f9df8e1437fb5a7bff93982b94b" style="width: 100.0%; height: 100.0%;">Padri Lalpur</div>`)[0];
+            popup_d9cc4294d7d848bd9685a3350f8fef5f.setContent(html_29ed6f9df8e1437fb5a7bff93982b94b);
+        
+
+        circle_marker_fc347dae39c34280978dad3eede2c87b.bindPopup(popup_d9cc4294d7d848bd9685a3350f8fef5f)
+        ;
+
+        
+    
+    
+            var circle_marker_dc578b98b1ed46fbb1e0ad7ded289a47 = L.circleMarker(
+                [26.45791440974284, 80.21657990630568],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_415b5be79b474b3baadac31d646af61d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_233ea1d817884695acfa25aed2db7cf8 = $(`<div id="html_233ea1d817884695acfa25aed2db7cf8" style="width: 100.0%; height: 100.0%;">Panki, Kanpur</div>`)[0];
+            popup_415b5be79b474b3baadac31d646af61d.setContent(html_233ea1d817884695acfa25aed2db7cf8);
+        
+
+        circle_marker_dc578b98b1ed46fbb1e0ad7ded289a47.bindPopup(popup_415b5be79b474b3baadac31d646af61d)
+        ;
+
+        
+    
+    
+            var circle_marker_ba5410b71c75420b890e135865a47a19 = L.circleMarker(
+                [26.447290000000066, 80.28482000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_1b891ced413f4532a7fcd942f214930c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e91a05c1ef4e07bce4bb576c35d7ec = $(`<div id="html_c3e91a05c1ef4e07bce4bb576c35d7ec" style="width: 100.0%; height: 100.0%;">Ratan Lal Nagar</div>`)[0];
+            popup_1b891ced413f4532a7fcd942f214930c.setContent(html_c3e91a05c1ef4e07bce4bb576c35d7ec);
+        
+
+        circle_marker_ba5410b71c75420b890e135865a47a19.bindPopup(popup_1b891ced413f4532a7fcd942f214930c)
+        ;
+
+        
+    
+    
+            var circle_marker_5fed3ef920314650892c78b310b780d6 = L.circleMarker(
+                [26.477770000000078, 80.27634000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_2531543d14ce4b3eab9e5819561f41c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c939c8bbeaa4ed0aefc6d26d64805cd = $(`<div id="html_7c939c8bbeaa4ed0aefc6d26d64805cd" style="width: 100.0%; height: 100.0%;">Rawatpur</div>`)[0];
+            popup_2531543d14ce4b3eab9e5819561f41c2.setContent(html_7c939c8bbeaa4ed0aefc6d26d64805cd);
+        
+
+        circle_marker_5fed3ef920314650892c78b310b780d6.bindPopup(popup_2531543d14ce4b3eab9e5819561f41c2)
+        ;
+
+        
+    
+    
+            var circle_marker_ad81e596374146239227ba54767f87cd = L.circleMarker(
+                [26.485630078030223, 80.32398814090162],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c6857f26ca2c4ad39f3d3fea30dcb35e);
+        
+    
+        var popup_1dd9b270922e468e82625605b68b93a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95e1fa5db14441ce92a5df392c0c60ea = $(`<div id="html_95e1fa5db14441ce92a5df392c0c60ea" style="width: 100.0%; height: 100.0%;">VIP Road, Kanpur</div>`)[0];
+            popup_1dd9b270922e468e82625605b68b93a3.setContent(html_95e1fa5db14441ce92a5df392c0c60ea);
+        
+
+        circle_marker_ad81e596374146239227ba54767f87cd.bindPopup(popup_1dd9b270922e468e82625605b68b93a3)
+        ;
+
+        
+    
+</script>
